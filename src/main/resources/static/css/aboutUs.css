@@ -4,7 +4,7 @@ body {
     font-family: Georgia, serif;
 }
 
-.container {
+#container {
     position: absolute;
     left: 0;
     top: 0;
@@ -14,33 +14,8 @@ body {
     background-size: cover;
 }
 
-.outer {
+#link-back {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.details {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-@keyframes animate {
-    0%, 100% {
-        background-image: url(https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg);
-    }
-    25% {
-        background-image: url(https://cdn.wallpapersafari.com/26/10/lV9LYT.jpg);
-    }
-    50% {
-        background-image: url(https://media.istockphoto.com/id/1333039919/photo/solo-traveller-exploring-europe.jpg?s=612x612&w=0&k=20&c=K1iWHIyx9QNv7QggMqbzTwDN74UhZYTlGmwr9u6QSJM=);
-    }
-    75% {
-        background-image: url(https://media.istockphoto.com/id/951861300/photo/tourist-woman-traveling-solo-in-budapest.jpg?s=612x612&w=0&k=20&c=93e7KAXBogt2L-0KrHrtxNB0VitPCm6-MlJoVlyAFiI=);
-    }
+    bottom: 8px;
+    left: 16px;
 }
